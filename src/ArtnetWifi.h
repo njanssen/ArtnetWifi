@@ -35,7 +35,7 @@ THE SOFTWARE.
 #elif defined(ARDUINO_ARCH_ESP8266)
 #include <ESP8266WiFi.h>
 #elif defined(ARDUINO_ARCH_SAMD)
-#if defined(ARDUINO_SAMD_MKR1000)
+#if defined(ARDUINO_SAMD_MKR1000) || defined(ARDUINO_SAMD_ZERO)
 #include <WiFi101.h>
 #else
 #include <WiFiNINA.h>
